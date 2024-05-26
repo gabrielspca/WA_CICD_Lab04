@@ -47,7 +47,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # Login on GCP
+      # Login to GCP
       - name: LoginCCP
         uses: google-github-actions/setup-gcloud@v0
         with:
